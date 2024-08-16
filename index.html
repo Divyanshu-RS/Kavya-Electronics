@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kavya Electronics</title>
+<link rel="shortcut icon" href="images/ke1 logo.png" type="image/x-icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+
+<style>
+        /* Set the size of the map container */
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header start -->
+<div class="navbar custom-navbar wow fadeInDown" data-wow-duration="2s" role="navigation" id="header">
+  <div class="header">
+    <div class="container"> 
+      <!-- Row Rtart -->
+      <div class="row">
+        <div class="col-md-3 col-sm-4">
+          <div class="logo"><img src="images/KVE Logo.png" alt=""></div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8"> 
+          <!--navegation-->
+          <div class="navigationwrape">
+            <div class="navbar navbar-default" role="navigation">
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li> <a href="#home" class="smoothScroll"> Home</a></li>
+                  <li> <a href="#about" class="smoothScroll"> About Us</a></li>
+                  <li> <a href="#service" class="smoothScroll"> Service</a></li>
+                  <li> <a href="#contact" class="smoothScroll"> Contact us </a></li>
+                   <li><a href="#map" class="smoothScroll">Find Us</a></li>
+                  <li>
+                    <div class="phone"> <span>Contact Us 24/7.</span> <a href="tel:8700272090">+91-8700272090</a> </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row End --> 
+    </div>
+  </div>
+</div>
+<!-- Header end --> 
+
+<!-- slider start -->
+<div class="video">
+  <div class="slider-wrap videoWrp" id="home">
+    <div class="videohover hero-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="banner-info hover-effect">
+              <h4>AC & Refrigator  Repair & Servicing <span><img src="images/with-img.png" alt="" style="padding:2px 20px;"></span></h4>
+              <h4>Our Top rated technicians</h4>
+              <h6 style="margin-top: 10px;text-shadow: 2px 2px rgba(0, 0, 0, 0.24);">Service in 60 mins* &nbsp;|&nbsp;<br class="br"> Genuine Parts.</h6>
+              <h6 style="margin-top: 10px;text-shadow: 2px 2px rgba(0, 0, 0, 0.24);">Servicable @ delhi NCR, Ghaziabad</h6>
+              <div class="readmore">
+                                            <br>
+              <!--<p>Call For Free Consultation:</p>-->
+              <div class="clearfix"></div>
+                <div class="phone-call"> <a href="tel:8700272090">+918700272090</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-form white-bg text-center">
+              <h3>Book NOW!</h3>
+              <form class="form-message" action="https://formspree.io/f/mldrlgeb" method="post" target="_blank">
+                <div class="form-results"></div>
+          
+                <div class="form-group row fix-gutter-10">
+                  <div class="form-field col-sm-12 gutter-10 form-m-bttm">
+                    <input name="name" type="text" placeholder="Name" class="form-control required" required>
+                  </div>
+                </div>
+          
+                <div class="form-group row fix-gutter-10">
+                  <div class="form-field col-sm-12 gutter-10">
+                    <input name="phone" type="tel" placeholder="Mobile Number" class="form-control required" required>
+                  </div>
+                </div>
+          
+                <div class="form-group row">
+                  <div class="form-field col-md-12">
+                    <textarea name="address" placeholder="Address" class="txtarea form-control required" aria-required="true"></textarea>
+                  </div>
+                </div>
+          
+                <div class="form-group row fix-gutter-10">
+                  <div class="form-field col-sm-12 gutter-10">
+                    <select name="service" class="form-control required" required>
+                      <option value="" disabled selected>Select Service</option>
+                      <option value="consultation">Consultation</option>
+                      <option value="repair">Repair</option>
+                      <option value="installation">Installation</option>
+                      <option value="maintenance">Maintenance</option>
+                    </select>
+                  </div>
+                </div>
+          
+                <div class="form-group row fix-gutter-10">
+                  <div class="form-field col-sm-12 gutter-10">
+                    <input name="date" type="date" placeholder="mm/dd/yyyy" class="form-control required" required>
+                  </div>
+                </div>
+          
+                <div class="form-group row fix-gutter-10">
+                  <div class="form-field col-sm-12 gutter-10">
+                    <select name="time" class="form-control required" required>
+                      <option value="" disabled selected>Select Time</option>
+                      <option value="9am-10am">9:00 AM - 10:00 AM</option>
+                      <option value="10am-11am">10:00 AM - 11:00 AM</option>
+                      <option value="11am-12pm">11:00 AM - 12:00 PM</option>
+                      <option value="1pm-2pm">1:00 PM - 2:00 PM</option>
+                      <option value="2pm-3pm">2:00 PM - 3:00 PM</option>
+                      <option value="3pm-4pm">3:00 PM - 4:00 PM</option>
+                    </select>
+                  </div>
+                </div>
+          
+                <div class="contact-wrap2">
+                  <input type="submit" value="Book Now" name="submit" class="quote-btn sub">
+                </div>
+          
+                <div class="contact-note"> * We don't provide anyone access to your personal information. We take the privacy of our users very seriously. </div>
+              </form>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="hero-image" style="background-image: url('images/banner1.jpg'); background-position:left center;"> </div>
+  </div>
+</div>
+<!-- slider end --> 
+ <div class="clearfix"></div>
+<!--About Start-->
+<div class="about-wrap" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h1>About <span>Us</span></h1>
+        <div class="aboutTxt">All Service Center : Since 1998</div>
+         <p>We are the top Service provider in Delhi-NCR, Ghaziabad for on-site residential and business appliance repair and maintenance. Our franchisees, which were founded in 1998, offer full-service home appliance repair and maintenance.</p>
+		<div class="aboutTxt">We take safety measures during every service</div>
+        <div class="about-types row">
+          <div class="col-md-6 col-sm-6 p-tb15 ">
+            <div class="wt-icon-box-wraper left">
+              <div class="aboutIcon"> <i class="fa fa fa-check" aria-hidden="true"></i> </div>
+              <div class="icon-content">
+                <h5 class="wt-tilte text-uppercase m-b0">Use Masks</h5>
+                <p>Usage of masks and gloves by our professionals.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 p-tb15">
+            <div class="wt-icon-box-wraper left">
+              <div class="aboutIcon"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+              <div class="icon-content">
+                <h5 class="wt-tilte text-uppercase m-b0">Wash Hands</h5>
+                <p>Our professionals wash hands before every service.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 p-tb15">
+            <div class="wt-icon-box-wraper left">
+              <div class="aboutIcon"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+              <div class="icon-content">
+                <h5 class="wt-tilte text-uppercase m-b0">Sanitizations Appliances</h5>
+                <p>We do sanitization of appliances after service</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 p-tb15">
+            <div class="wt-icon-box-wraper left">
+              <div class="aboutIcon"> <i class="fa fa-check" aria-hidden="true"></i> </div>
+              <div class="icon-content">
+                <h5 class="wt-tilte text-uppercase m-b0 ">Use Gloves</h5>
+                <p>Usage of masks and gloves by our professionals</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <div class="about-image"><img src="images/about.png"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--About End--> 
+
+<!--service start-->
+<div class="service-wrap" id="service">
+  <div class="container">
+    <h1 style="color:#f37022;">Why<span style="color:#000000;"> choose our services?</span></h1>
+    <ul class="serviceList row">
+      <li class="col-md-4 col-sm-6">
+        <div class="single-service">
+			<div class="service-icon"><img class="img-responsive" src="images/iui-1.jpg" alt=""/></div>
+          <h3>On Time Service</h3>
+          <p>We have a service center available to offer you prompt services at your residence. As we get your requirements, we give you a call. As soon as our professional arrives, you will receive a call. </p>
+        </div>
+      </li>
+      <li class="col-md-4 col-sm-6">
+        <div class="single-service">
+          <div class="service-icon"><img class="img-responsive" src="images/ivf-1.jpg" alt=""/></div>
+          <h3>51 Day Service Guarantee</h3>
+          <p>If you have any issues with your product during the following 51 days, you can come to our service center for a free 51-day visit. There are no additional fees, and the service is always prompt. </p>
+        </div>
+      </li>
+      <li class="col-md-4 col-sm-6">
+        <div class="single-service">
+          <div class="service-icon"><img class="img-responsive" src="images/ivf-2.jpg" alt=""/></div>
+          <h3>Genuine Spare Parts</h3>
+          <p>We are offering you a complimentary 51-day visit since we are here to supply you with Genuine Spare Parts. In the city, we have a sizable warehouse.<br><br> </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--service end-->
+
+<section class="treatment-emi" id="sec4">
+  <div class="container">
+    <h1>How we <span> work</span></h1>
+    <div class="addhowto" id="1">
+    </div>
+    <div class="addhowto addhowtoshow" id="2">
+      <div class="row ">
+        <div class="col-sm-3 col-xs-12">
+          <div class="enroll_text">
+            <div class="titleage1">
+              <h2> 1. </h2>
+              <img src="images/avil_arrow.png" alt=""> </div>
+            <span> Call Or Enquiry Receive </span>
+           <p> To get in touch with us, either fill out the form or give us a call.</p>
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <div class="enroll_text">
+            <div class="titleage1">
+              <h2> 2. </h2>
+              <img src="images/avil_arrow.png" alt=""> </div>
+            <span> Provide us your Time slot </span>
+            <p> We give you a call to schedule a time.  </p>
+            
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <div class="enroll_text">
+            <div class="titleage1">
+              <h2> 3. </h2>
+              <img src="images/avil_arrow.png" alt=""> </div>
+            <span> Our Technician visit your place</span>
+            <p> The technician will make a call before coming to your home. </p>
+            
+          </div>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+          <div class="enroll_text">
+            <div class="titleage1">
+              <h2> 4. </h2>
+            </div>
+            <span> Do apyment Onlone or Offline </span>
+            <p> We give you an online payment invoice.</p>
+            <div class="titleavil23"> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!--Contact Us Start-->
+<div class="contact-wrap" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-xs-offset-0 col-sm-12 col-xs-12">
+        <div class="contact-info">
+          <div class="title">
+            <h1>Book Our Service</h1>
+          </div>
+          <p>We are here to provide you on-Time service with low price and Genuine Spare Parts and also 51 days free Visit</p>
+          <form class="form-message" action="https://formspree.io/f/myzgpkyj" method="post" target="_blank">
+            <div class="form-results"></div>
+  
+        <div class="form-group row fix-gutter-10">
+          <div class="form-field col-sm-12 gutter-10 form-m-bttm">
+            <input name="name" type="text" placeholder="Name" class="form-control required" required>
+          </div>
+        </div>
+  
+        <div class="form-group row fix-gutter-10">
+          <div class="form-field col-sm-12 gutter-10">
+            <input name="phone" type="tel" placeholder="Mobile Number" class="form-control required" required>
+          </div>
+        </div>
+  
+        <div class="form-group row">
+          <div class="form-field col-md-12">
+            <textarea name="address" placeholder="Address" class="txtarea form-control required" aria-required="true"></textarea>
+          </div>
+        </div>
+  
+        <div class="form-group row fix-gutter-10">
+          <div class="form-field col-sm-12 gutter-10">
+            <select name="service" class="form-control required" required>
+              <option value="" disabled selected>Select Service</option>
+              <option value="consultation">Consultation</option>
+              <option value="repair">Repair</option>
+              <option value="installation">Installation</option>
+              <option value="maintenance">Maintenance</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="form-group row fix-gutter-10">
+          <div class="form-field col-sm-12 gutter-10">
+            <input name="date" type="date" placeholder="mm/dd/yyyy" class="form-control required" required>
+          </div>
+        </div>
+  
+        <div class="form-group row fix-gutter-10">
+          <div class="form-field col-sm-12 gutter-10">
+            <select name="time" class="form-control required" required>
+              <option value="" disabled selected>Select Time</option>
+              <option value="9am-10am">9:00 AM - 10:00 AM</option>
+              <option value="10am-11am">10:00 AM - 11:00 AM</option>
+              <option value="11am-12pm">11:00 AM - 12:00 PM</option>
+              <option value="1pm-2pm">1:00 PM - 2:00 PM</option>
+              <option value="2pm-3pm">2:00 PM - 3:00 PM</option>
+              <option value="3pm-4pm">3:00 PM - 4:00 PM</option>
+            </select>
+          </div>
+        </div>
+  
+        <div class="contact-wrap2" style="text-align: center !important;">
+          <input type="submit" value="Book Now" name="submit" class="quote-btn sub">
+        </div>
+        <div class="contact-note"> * We don't provide anyone access to your personal information. We take the privacy of our users very seriously.</div>
+      </form>
+    </div>
+    </div></div>
+  </div>
+</div>
+</div>
+<!--Contact Us end--> 
+
+ <div class="map-wrap" id="map">
+            <div class="container">
+<br>
+                <h1>Our <span>Location</span></h1>
+                <div class="map-content">
+                    <p>You can find us at our service center or use the map below to locate our exact location.</p>
+                </div>
+                <div class="map-iframe">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218.75148196062165!2d77.3310481324521!3d28.688937304449507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfbad210dab3d%3A0x53a2870133a6dcf1!2sKavya%20refrigerator%20%26%20Airconditoner!5e0!3m2!1sen!2sin!4v1723658157950!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+
+                </div>
+            </div>
+        </div>
+        <!-- Map Section End -->
+
+    </div>
+    <!-- Content Wrap End -->
+
+    <!-- Footer Section Start -->
+    <div class="footer-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="copyright">©Copyright 2024 - All rights reserved.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section End -->
+</section>
+<!--page scroll start-->
+<div class="page-scroll scrollToTop"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+<!--page scroll start--> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-2.1.4.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- general script file --> 
+<script src="js/owl.carousel.js"></script> 
+
+<!-- sticky script file --> 
+<script src="js/jquery.sticky.js"></script> 
+
+<!-- Counter --> 
+<script src="js/counter.js"></script> 
+
+<!-- smoothscroll script file --> 
+<script src="js/smoothscroll.js"></script> 
+
+
+<script src="js/custom.js"></script> 
+<script src="js/script.js"></script>
+
+</body>
+</html>
